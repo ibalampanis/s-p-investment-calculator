@@ -1,6 +1,7 @@
 # S&P Investment Calculator
 
 An interactive web application built with Streamlit to visualize long-term investment growth.
+You can find a public deployment of this application [here](https://spcalc.ibalampanis.gr).
 
 ## Features
 
@@ -10,11 +11,6 @@ An interactive web application built with Streamlit to visualize long-term inves
 - View yearly breakdown of investment performance
 - Track return on investment (ROI) over time
 - Export data to CSV for further analysis
-
-## Screenshots
-
-![Investment Growth Chart](https://via.placeholder.com/800x400?text=Investment+Growth+Chart)
-![Investment Composition](https://via.placeholder.com/800x400?text=Investment+Composition)
 
 ## Installation
 
