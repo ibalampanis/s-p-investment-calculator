@@ -6,8 +6,7 @@ function show_help {
     echo "Deploy the S&P Investment Calculator application"
     echo ""
     echo "Options:"
-    echo "  --restart    Restart the container (stop and remove existing container)"
-    echo "  --upgrade    Same as --restart"
+    echo "  --upgrade    Restart the container (stop and remove existing container)"
     echo "  --help       Display this help message"
     exit 0
 }
@@ -24,7 +23,7 @@ if ! command -v docker &> /dev/null; then
 fi
 
 # Option to restart or upgrade the container
-if [ "$1" == "--restart" ] || [ "$1" == "--upgrade" ]; then
+if [ "$1" == "--upgrade" ]; then
     echo "Stopping and removing existing container..."
     docker stop sp-investment-calculator || true
     docker rm sp-investment-calculator || true
