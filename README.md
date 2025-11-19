@@ -73,14 +73,6 @@ If you're using Docker, access the application at:
 http://localhost:8501
 ```
 
-### Production Access
-
-For the production deployment, the application is accessible at:
-
-```
-http://spcalc.ibalampanis.gr
-```
-
 The application will open in your default web browser.
 
 ## Investment Parameters
