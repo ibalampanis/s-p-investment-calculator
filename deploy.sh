@@ -39,11 +39,9 @@ echo "Starting container..."
 if ! docker run -d \
     --name sp-investment-calculator \
     -p 8585:8585 \
-    --restart always \
     sp-investment-calculator; then
     echo "Error: Failed to start container"
     exit 1
 fi
 
 echo "S&P Investment Calculator deployed successfully on port 8585"
-echo "The application is accessible at http://spcalc.ibalampanis.gr"
